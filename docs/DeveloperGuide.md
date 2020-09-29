@@ -295,15 +295,15 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
 3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
 4. Should be usable by a novice who has never used a contact management system/command line application before.
-5. _FaculType_ is expected to adhere to the schedule specified in the CS2103 website.
-6. _FaculType_ is not required to support contacting the faculty members.
-7. _FaculType_ is not required to handle printing of faculty member/module data.
-8. _FaculType_ is not required to connect to any backend system/DBMS.
-9. _FaculType_ is a single-user application.
-10. _FaculType_ is only available in English.
-11. _FaculType_ should be able to work without users having Gradle/JavaFX installed beforehand.
-12. _FaculType_ should disallow users from manipulating data externally (by editing the JSON file, etc).
-13. Each time user open the application, user should be able to view the latest version of the data (new / updated data should be there and deleted data should no longer exist).
+5. Should adhere to the schedule specified in the CS2103 website.
+6. Not required to support contacting the faculty members.
+7. Not required to handle printing of faculty member/module data.
+8. Not required to connect to any backend system/DBMS.
+9. Not required to support multiple users on a single device.
+10. Not required to support any language other than English.
+11. Should be able to work without users having Gradle/JavaFX installed beforehand.
+12. Should disallow users from manipulating data externally (by editing the JSON file, etc).
+13. Each time a user opens the application, the user should be able to view the latest version of the data (new / updated data should be there and deleted data should no longer exist).
 
 
 ### Glossary
