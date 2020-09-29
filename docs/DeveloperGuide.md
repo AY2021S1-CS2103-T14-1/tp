@@ -354,3 +354,12 @@ testers are expected to do more *exploratory* testing.
    1. _{explain how to simulate a missing/corrupted file, and the expected behavior}_
 
 1. _{ more test cases …​ }_
+
+### User Stories
+1. As a forgetful person, I want to keep remarks about the faculty members so that I remember certain things about them.
+2. As a dean who works in a dynamic environment, I want to be able to update any member’s building and department quickly without having to re-add the member.
+3. As a faculty leader, I want to be able to keep track of the buildings of the faculty members so that I know where to find them.
+4. As a faculty leader, I want to be able to keep track of the departments of the faculty members.
+5. As a dean, I want to be able to add new modules to keep the module list up-to-date. 
+6. As a dean, I want to be able to delete some modules that are no longer offered by the faculty.
+
