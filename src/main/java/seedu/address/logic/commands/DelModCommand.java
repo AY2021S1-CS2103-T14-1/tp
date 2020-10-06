@@ -19,7 +19,7 @@ public class DelModCommand extends Command {
             + PREFIX_MODULE_CODE + "CS2103 ";
 
     public static final String MESSAGE_SUCCESS = "Module deleted: %1$s";
-    public static final String MESSAGE_MODULE_DOES_NOT_EXIST = "This module does not exists in FaculType";
+    public static final String MESSAGE_MODULE_DOES_NOT_EXIST = "This module does not exist in FaculType";
 
     private final ModuleCode moduleCode;
 
