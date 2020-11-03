@@ -10,24 +10,29 @@ FaculType is a desktop app for managing faculty members and their modules, optim
 Given below are my contributions to the project.
 
 * **New Feature**: Added the ability to unassign a contact from modules.
-  * What it does: allows the user to undo all previous commands one at a time. Preceding undo commands can be reversed by using the redo command.
-  * Justification: This feature improves the product significantly because a user can make mistakes in commands and the app should provide a convenient way to rectify them.
-  * Highlights: This enhancement affects existing commands and commands to be added in future. It required an in-depth analysis of design alternatives. The implementation too was challenging as it required changes to existing commands.
+  * What it does: allows the user to unassign a contact from modules specified.
+  * Justification: This feature improves the product significantly because instructors may retire or assigned to teach another modules. Unassign makes it easier to update the assignment.
+  * Highlights: This enhancement required an in-depth analysis of design alternatives because there are a lot of possible command combination. It also required an understanding of existing assign feature. Unassign can be used to unassign specified contact from specified modules or unassign the contact from all modules it is assigned to, depending on the command format.
   * Credits: *{mention here if you reused any code/ideas from elsewhere or if a third-party library is heavily used in the feature so that a reader can make a more accurate judgement of how much effort went into the feature}*
   
 * **New Feature**: Added the ability to unassign all contacts from all modules.
-
+  * What it does: allows the user to unassign all contacts from all modules in FaculType.
+  * Justification: This feature improves the product significantly to ease major changes in the teaching staff structure. It is also used by cclear to delete all assignment prior to deleting all contacts to avoid inconsistency or invalid data.
+  * Highlights: This enhancement required a rigid implementation because it affects another feature in the FaculType.
+  * Credits: *{mention here if you reused any code/ideas from elsewhere or if a third-party library is heavily used in the feature so that a reader can make a more accurate judgement of how much effort went into the feature}*
 
 * **New Feature**: Added the ability to add modules.
+  * What it does: allows the user to add more modules to FaculType.
+  * Justification: This feature improves the product significantly because university curriculum is dynamic. Modules might be added or updated to adjust to the current curriculum. 
+  * Highlights: This feature required an understanding of existing Module, UniqueModuleList, and Model class. It needs a lot of checking to ensure there are no duplicate modules or modules with invalid format.
+  * Credits: *{mention here if you reused any code/ideas from elsewhere or if a third-party library is heavily used in the feature so that a reader can make a more accurate judgement of how much effort went into the feature}*
 
 * **Code contributed**: [RepoSense link](https://nus-cs2103-ay2021s1.github.io/tp-dashboard/#breakdown=true&search=florenciamartina)
 
-* **Project management**:
-  * Managed releases `v1.3` - `v1.5rc` (3 releases) on GitHub
-
 * **Enhancements to existing features**:
   * Updated all one-word commands to disallow arguments [\#180](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/180)
-  * Wrote additional tests for existing features to increase coverage from 88% to 92% (Pull requests [\#36](), [\#38](), [\#135]())
+  * Wrote additional tests for existing features to increase coverage (Pull requests [\#64](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/64), [\#114](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/114), [\#115](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/115), [\#135](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/135), [\#180](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/180))
+  * Increased font size to increase readability [\#147](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/147) 
 
 * **Documentation**:
   * User Guide:
@@ -39,13 +44,10 @@ Given below are my contributions to the project.
     * Added implementation details of the `unassign` and `unassignall` feature. [\#129](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/129)
 
 * **Community**:
-  * PRs reviewed (with non-trivial review comments): [\#12](), [\#32](), [\#19](), [\#42]()
-  * Contributed to forum discussions (examples: [1](), [2](), [3](), [4]())
-  * Reported bugs and suggestions for other teams in the class (examples: [1](), [2](), [3]())
-  * Some parts of the history feature I added was adopted by several other class mates ([1](), [2]())
+  * PRs reviewed (with non-trivial review comments): [\#61](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/61), [\#89](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/89)
+  * Reported bugs and suggestions for other teams in the class (examples: [1](https://github.com/florenciamartina/ped/issues/2), [2](https://github.com/florenciamartina/ped/issues/7), [3](https://github.com/florenciamartina/ped/issues/8), [4](https://github.com/florenciamartina/ped/issues/10))
 
 * **Tools**:
-  * Integrated a third party library (Natty) to the project ([\#42]())
-  * Integrated a new Github plugin (CircleCI) to the team repo
+  * Integrated a test coverage plugin (CodeCov) to the team repo
 
 * _{you can add/remove categories in the list above}_
