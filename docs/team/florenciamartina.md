@@ -37,11 +37,11 @@ Given below are my contributions to the project.
 * **Documentation**:
   * User Guide:
     * Added documentation for the features `addmod`, `findmod`, `assign`, `mclear`, and `cclear` [\#36](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/36), [\#90](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/90)
-    * Update existing documentation of features `clear` to `reset`: [\#90](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/90)
+    * Update existing documentation of features `clear`: [\#90](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/90)
   * Developer Guide:
     * Added NFRs. [\#29](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/29)
-    * Updated glossary and user stories. [\#92](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/92)
-    * Added implementation details of the `unassign` and `unassignall` feature. [\#129](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/129)
+    * Updated glossary and user stories. [\#92](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/92), [\#241](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/241)
+    * Added implementation details of the `unassign` and `unassignall` feature. [\#129](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/129), [\#230](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/230)
 
 * **Community**:
   * PRs reviewed (with non-trivial review comments): [\#61](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/61), [\#89](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/89)
