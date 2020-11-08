@@ -14,10 +14,10 @@ Given below are my contributions to the project.
   * Justification: This feature improves the product significantly because instructors may retire or assigned to teach another modules. Unassign makes it easier to update the assignment.
   * Highlights: This enhancement required an in-depth analysis of design alternatives because there are a lot of possible command combination. It also required an understanding of existing assign feature. Unassign can be used to unassign specified contact from specified modules or unassign the contact from all modules it is assigned to, depending on the command format.
 
- * **New Feature**: Added the ability to unassign all contacts from all modules.
+* **New Feature**: Added the ability to unassign all contacts from all modules.
   * What it does: allows the user to unassign all contacts from all modules in FaculType.
   * Justification: This feature improves the product significantly to ease major changes in the teaching staff structure. It is also used by cclear to delete all assignment prior to deleting all contacts to avoid inconsistency or invalid data.
-  * Highlights: This enhancement required a rigid implementation because it affects another feature in the FaculType.
+  * Highlights: This enhancement required a rigid implementation because it affects another feature (cclear command) in the FaculType.
 
 * **New Feature**: Added the ability to add modules.
   * What it does: allows the user to add more modules to FaculType.
