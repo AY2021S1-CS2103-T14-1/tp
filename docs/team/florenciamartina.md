@@ -13,24 +13,21 @@ Given below are my contributions to the project.
   * What it does: allows the user to unassign a contact from modules specified.
   * Justification: This feature improves the product significantly because instructors may retire or assigned to teach another modules. Unassign makes it easier to update the assignment.
   * Highlights: This enhancement required an in-depth analysis of design alternatives because there are a lot of possible command combination. It also required an understanding of existing assign feature. Unassign can be used to unassign specified contact from specified modules or unassign the contact from all modules it is assigned to, depending on the command format.
-  * Credits: *{mention here if you reused any code/ideas from elsewhere or if a third-party library is heavily used in the feature so that a reader can make a more accurate judgement of how much effort went into the feature}*
   
 * **New Feature**: Added the ability to unassign all contacts from all modules.
   * What it does: allows the user to unassign all contacts from all modules in FaculType.
   * Justification: This feature improves the product significantly to ease major changes in the teaching staff structure. It is also used by cclear to delete all assignment prior to deleting all contacts to avoid inconsistency or invalid data.
   * Highlights: This enhancement required a rigid implementation because it affects another feature in the FaculType.
-  * Credits: *{mention here if you reused any code/ideas from elsewhere or if a third-party library is heavily used in the feature so that a reader can make a more accurate judgement of how much effort went into the feature}*
 
 * **New Feature**: Added the ability to add modules.
   * What it does: allows the user to add more modules to FaculType.
   * Justification: This feature improves the product significantly because university curriculum is dynamic. Modules might be added or updated to adjust to the current curriculum. 
   * Highlights: This feature required an understanding of existing Module, UniqueModuleList, and Model class. It needs a lot of checking to ensure there are no duplicate modules or modules with invalid format.
-  * Credits: *{mention here if you reused any code/ideas from elsewhere or if a third-party library is heavily used in the feature so that a reader can make a more accurate judgement of how much effort went into the feature}*
 
-* **Code contributed**: [RepoSense link](https://nus-cs2103-ay2021s1.github.io/tp-dashboard/#breakdown=true&search=florenciamartina)
+* **Code contributed**: [RepoSense link](https://nus-cs2103-ay2021s1.github.io/tp-dashboard/#breakdown=true&search=florenciamartina&sort=groupTitle&sortWithin=title&since=2020-08-14&timeframe=commit&mergegroup=&groupSelect=groupByRepos&checkedFileTypes=docs~functional-code~test-code~other&tabOpen=true&tabType=authorship&tabAuthor=florenciamartina&tabRepo=AY2021S1-CS2103-T14-1%2Ftp%5Bmaster%5D&authorshipIsMergeGroup=false&authorshipFileTypes=docs~functional-code~test-code)
 
 * **Enhancements to existing features**:
-  * Updated all one-word commands to disallow arguments [\#180](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/180)
+  * Updated all one-word commands to disallow arguments [\#180](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/180), [\#219](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/219)
   * Wrote additional tests for existing features to increase coverage (Pull requests [\#64](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/64), [\#114](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/114), [\#115](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/115), [\#135](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/135), [\#180](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/180))
   * Increased font size to increase readability [\#147](https://github.com/AY2021S1-CS2103-T14-1/tp/pull/147) 
 
@@ -49,5 +46,3 @@ Given below are my contributions to the project.
 
 * **Tools**:
   * Integrated a test coverage plugin (CodeCov) to the team repo
-
-* _{you can add/remove categories in the list above}_
