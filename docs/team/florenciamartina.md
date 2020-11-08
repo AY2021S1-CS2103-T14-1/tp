@@ -46,3 +46,4 @@ Given below are my contributions to the project.
 
 * **Tools**:
   * Integrated a test coverage plugin (CodeCov) to the team repo
+
